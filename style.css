@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    font-size: 4rem;
+    flex: 1 1 auto;
+    text-align: center;
+    align-content: center;
+    max-height: 10%;
+    background: #8ACE00;
+}
+
+.game {
+    flex: 1 1 auto;
+    width: 100%;
+    align-content: center;
+    text-align: center;
+}
+
+.tictactoe {
+    height: 30em;
+    width: 30em;
+    display: grid;
+    margin: auto;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: black;
+}
+
+#winner {
+    height: 3rem;
+    font-size: 3rem;
+}
+
+.tictactoe div {
+    align-content: center;
+    text-align: center;
+    font-size: 3rem;
+    color: white;
+    border: 2px solid white;
+}
+
+#new-game, #restart-game {
+    width: 16rem;
+    height: 3rem;
+    background-color: #8ACE00;
+    border: 0px;
+    border-radius: 8px;
+    font-size: 2rem;
+}
+
+#new-game {
+    position: absolute;
+    top: 19rem;
+    left: calc(100%/12);
+}
+
+#restart-game {
+    position: absolute;
+    top: 38rem;
+    left: calc(100%/12);
+}
