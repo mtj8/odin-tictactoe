@@ -64,12 +64,12 @@ body {
 
 #new-game {
     position: absolute;
-    top: 19rem;
+    top: 30%;
     left: calc(100%/12);
 }
 
 #restart-game {
     position: absolute;
-    top: 38rem;
+    top: 40%;
     left: calc(100%/12);
 }

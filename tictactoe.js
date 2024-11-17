@@ -110,7 +110,7 @@ const Controller = (function() {
     // start a game
     const initGame = (playerOneName, playerTwoName) => {
         board = Gameboard.createBoard();
-        
+
         // players
         const playerOne = createPlayer(playerOneName, "X");
         const playerTwo = createPlayer(playerTwoName, "O");
@@ -188,4 +188,6 @@ const Controller = (function() {
 
 })();
 
+const newGame = document.getElementById("new-game");
+// newGame.addEventListener("click", )
 Controller.initGame(0, 1);
